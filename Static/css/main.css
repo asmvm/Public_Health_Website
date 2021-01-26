@@ -1,0 +1,15 @@
+/* Main Styles */
+/* Who we Are Styles */
+/* Contact Page Styles */
+.emc-card{ position: relative }
+
+h1{ margin-left: 120px; }
+
+.buttons{
+  position: absolute;
+  margin-left:130px;
+  top:60%;
+  right: 30%;
+  width: 100px;
+  transform: translateY(-10%);
+}
