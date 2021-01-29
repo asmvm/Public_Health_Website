@@ -39,12 +39,12 @@ h1{ margin-left: 120px; }
 #footer-widgets .main-footer li:before {
   display:none;
 }
-#footer-widgets .footer-widget li {
+#footer-widgets .main-footer li {
   padding-left: 0px;
 }
 .social-footer {
   padding: 1rem;
-  background: #fcfafa;
+  background: #ffffff;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
