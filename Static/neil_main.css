@@ -1,0 +1,58 @@
+
+  
+  .blah-class{
+    margin-left: 600; 
+  }
+  
+  .center {   
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 800px;
+  width: 1885px;
+  top:10px;
+  bottom: 20px;
+  padding-left: 30px;
+
+
+
+    /* width: 1880px;
+    height: 800px;
+    padding-bottom: 20px; */
+  }
+
+  body{
+      padding: 10px;
+  }
+
+  #tabs .nav-pills > li > a {
+    font-size: 25px;
+    border-radius: 8px 8px 0 0 ;
+    margin-top: 15px;
+    right: 374px;
+  }
+  
+  #tabs .tab-content {
+    color : black;
+    background-color: white;
+    padding : 100px 200px;
+    margin-top: 0px;
+    padding-bottom: 500px;
+    position: absolute;
+    left: 18px;   
+  }
+  
+  h3{
+    text-size-adjust: auto;
+  }
+
+  /* Centered text */
+.centered {
+    color:white;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
