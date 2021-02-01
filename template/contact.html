@@ -64,16 +64,16 @@
             <p>We are here to help, in case of our emergeny. We have relevant information for you at the click of a button. Feel free to contact us using the form on the right to get these resources in your community.</p><br>
             <div class="buttons">
               <div>
-                <button class= "btn-danger emc-btn">Get Immediate Help</button><br>
+                <button class= "btn-info emc-btn">Get Immediate Help</button><br>
               </div><br>
               <div>
-                <button class= "btn-danger emc-btn">Emergency Medical Services</button><br>
+                <button class= "btn-info emc-btn">Emergency Medical Services</button><br>
               </div><br>
               <div>
-                <button class= "btn-danger emc-btn">National Suicide Prevention Lifeline</button><br>
+                <button class= "btn-info emc-btn">National Suicide Prevention Lifeline</button><br>
               </div><br>
               <div>
-                <button class= "btn-danger emc-btn">Partner with Us</button>
+                <button class= "btn-info emc-btn">Partner with Us</button>
               </div><br>
             </div>
           </emc-card>
@@ -81,9 +81,22 @@
         <div class="col-xl-6">
             <div class="panel panel-danger">
               <div class="panel-body">
-                <form id="reused_form">
+                <form id="reused_form" action="{{ url_for('contact') }}" method=post>
                   <h1>Contact Us</h1>
                   <p>Thanks for your interest. Please fill out the form below and we'll respond as soon as possible.</p>
+                  <div class="form-group">
+                      <label><i class="fa fa-file" aria-hidden="true"></i>Reason for contacting .. :</label>
+                        <input list="subjects" name="subject"  class="form-control" placeholder="Reason for contacting .."/>
+                        <datalist id="subjects">
+                          <option value="Business: Interested in hiring ..">
+                          <option value="Press: Interested in a comment from ..">
+                          <option value="Partner: Internested in colloboration project with ..">
+                          <option value="Careers: Internested in applying to ..">
+                        </datalist>
+                        <div id="error_message" style="width:100%; height:100%; display:none; ">
+                          <h4>This field is required</h4>
+                          </div>
+                  </div>
                   <div class="form-group">
                     <label><i class="fa fa-user" aria-hidden="true"></i> First Name</label>
                     <input type="text" name="first-name" class="form-control" placeholder="Enter First Name">
@@ -93,7 +106,7 @@
                     <input type="text" name="last-name" class="form-control" placeholder="Enter Last Name">
                   </div>
                   <div class="form-group">
-                    <label><i class="fa fa-envelope" aria-hidden="true"></i> Phone Number</label>
+                    <label><i class="fa fa-phone" aria-hidden="true"></i> Phone Number</label>
                     <input type="email" name="phone-number" class="form-control" placeholder="Enter Phone #">
                   </div>
                   <div class="form-group">
@@ -101,11 +114,11 @@
                     <input type="email" name="email" class="form-control" placeholder="Enter Email">
                   </div>
                   <div class="form-group">
-                    <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                    <label><i class="fa fa-envelope" aria-hidden="true"></i> Message</label>
                     <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
                   </div>
                   <div class="form-group">
-                    <button class="btn btn-raised btn-block btn-danger emc-btn">Post →</button>
+                    <button class="btn btn-raised btn-block btn-info emc-btn">Post →</button>
                   </div>
                 </form>
                 <div id="error_message" style="width:100%; height:100%; display:none; ">
