@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, flash
 # Prevent a CSRF attack by making sure that the form submission originates from your web app.
 from forms import ContactForm
-
-app = Flask(__name__) 
+from flask import Flask
+app = Flask(__name__)
 
 app.secret_key = 'development key'
 app.config['MAIL_SERVER']='smtp.gmail.com'
@@ -25,3 +25,7 @@ def contact():
 
   elif request.method == 'GET':
     return render_template('contact.html', form=form)
+
+
+if __name__ == '__main__':
+    app.run()
