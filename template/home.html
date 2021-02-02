@@ -6,117 +6,404 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Optional: d3.js for dynamic charts -->
-    <script src="https://d3js.org/d3.v5.min.js"></script>    
+    <script src="https://d3js.org/d3.v5.min.js"></script> 
+    <!-- Script for the footer -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 
     <!-- Bootstrap CSS version 4.5.3 -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> 
+    
     <!-- Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Faster+One&family=Monoton&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+
     <link href='https://fonts.googleapis.com/css?family=Grupo|Sintony|Khula|' rel='stylesheet' type='text/css'>
     
-    <title>Insights:Community Health Evaluation Partners</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../template/styles_a.css">
+    
+    <title>Insight Community Health Evaluation Partners</title>
     <!-- Insert company logo/icon -->
-    <link rel="icon" href=""
+    <!-- <link rel="icon" href="" -->
+    
+    <!-- FOOTER STYLESHEETS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+
   </head>
   
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color:black; font-weight: bolder;">
-      <a class="navbar-brand" href="../template/home.html">INSIGHT</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Who We Are
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="../template/about.html">Our Story</a>
-              <a class="dropdown-item" href="../template/insights.html">Insights</a>
-              <a class="dropdown-item" href="../template/contact.html">Contact Us</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Solutions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
-          </li>
+
+    <div class="container-fluid">     
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black; font-weight: bolder;"> -->
+      <nav class="navbar navbar-expand-lg py-5 navbar-custom">
+        <a class="navbar-brand" href="../template/home.html">INSIGHT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Who We Are
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../template/our_story.html">Our Story</a>
+                <a class="dropdown-item" href="../template/insights.html">Insights</a>
+                <a class="dropdown-item" href="../template/contact.html">Contact Us</a>
+              </div>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="../template/home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Who we are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Industries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Insights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    
+
+      <!-- <div class="row"
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container-fluid">
+            <h1 class="display-8">Community Health Evaluation Consulting</h1>
+            
+          </div>
+        </div>
+      </div> -->
+      
+      <!-- container begins here -->
+      <div class="container-fluid">
+
+        <!-- row begins here -->
+        <div class="row">
           
+          <!-- CAROUSEL IMAGES BEGIN HERE -->
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Static/img/MiddleSchoolStudentsSmiling.jpeg" class="d-block w-100" alt="smiling_students">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h4>First slide label</h4> -->
+                  <h5>Working with schools across Georgia</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../Static/img/CommunityGardening.jpeg" class="d-block w-100" alt="community_gardening">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>Second slide label</h5> -->
+                  <h4>Building a healthier community</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../Static/img/TeenSmilingMindfulness.jpeg" class="d-block w-100" alt="mental_health">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>Third slide label</h5> -->
+                  <h4>Shining a light on mental health</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../Static/img/collaborating.jpeg" class="d-block w-100" alt="collaborating">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>Fourth slide label</h5> -->
+                  <h4>Partner with experts</h4>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- CAROUSEL ENDS HERE -->
+        </div>
+        <!-- ROW ENDS HERE -->
+      </div>
+
+      <br>
+      <hr class ="solid">
+      <br>
+
+      <div class="wrapper">
+        <header class="header">COMMUNITY HEALTH EVALUATION CONSULTING</header>
+        <article class="main">
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+        </article>
+        <aside class="aside aside-1">Aside 1</aside>
+        <aside class="aside aside-2">Aside 2</aside>
+        
+      </div>
+
+      <br>
+      <hr class ="solid">
+      <br>
+
+          
+      <div id="card-columns" class="card-deck">
+        <div class="card">
+          <img src="../Static/img/People_Holding_Hands.jpeg" class="card-img-bottom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Insight 1</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="../Static/img/People_Holding_Hands.jpeg" class="card-img-bottom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Insight 2</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+          
+        </div>
+          
+
+        <div class="card">
+          <img src="../Static/img/People_Holding_Hands.jpeg" class="card-img-bottom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Insight 3</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="../Static/img/People_Holding_Hands.jpeg" class="card-img-bottom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Insight 4</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+      </div>
+    
+      <br>
+      <hr class ="solid">
+      <br>
+
+      <div class="wrapper">
+        <header class="header">COMMUNITY HEALTH EVALUATION CONSULTING</header>
+        <article class="main">
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+        </article>
+        <aside class="aside aside-1">Aside 1</aside>
+        <aside class="aside aside-2">Aside 2</aside>
+        
+      </div>
+
+      <br>
+      <hr class ="solid">
+      <br>
+
+      <div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"> Highlight 1</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Highight 2</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Highlight 3</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <br>
+      <hr class ="solid">
+      <br>
+
+      <div class="wrapper">
+        <header class="header">COMMUNITY HEALTH EVALUATION CONSULTING</header>
+        <article class="main">
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+        </article>
+        <aside class="aside aside-1">Aside 1</aside>
+        <aside class="aside aside-2">Aside 2</aside>
+        
+      </div>
+
+      <br>
+      <hr class ="solid">
+      <br>
+
+
+      <!-- Team profile -->        
+      <div class="kontainer">
+        <h1 class="title"><span>meet</span>Our Team</h1>
+        <div class="profiles">
+          <div class="profile">
+            <img src="../Static/img/business_cat.jpg" class="profile-img">
+            <h3 class="user-name">Megan Smith</h3>
+            <h5>Founder and Lead Evaluator</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="profile">
+            <img src="../Static/img/business_cat.jpg" class="profile-img">
+            <h3 class="user-name">Katie Moran</h3>
+            <h5>Program Evaluation Specialist</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="profile">
+            <img src="../Static/img/business_cat.jpg" class="profile-img">
+            <h3 class="user-name">Fiana Thacker</h3>
+            <h5>Program Evaluation Specialist</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="profile">
+            <img src="../Static/img/business_cat.jpg" class="profile-img">
+            <h3 class="user-name">Michelle Herrera</h3>
+            <h5>Program Evaluation Specialist</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+        
+      
+      
+      
+      
+
+      <!--Footer starts here-->
+      <!-- Credit to https://bootsnipp.com/snippets/bxDBA -->
+      <footer class="main-footer">
+        <div class="container bottom_border">
+        <div class="row">
+        <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+        <!--headin5_amrc-->
+        <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <p><i class="fa fa-location-arrow"></i> Atlanta, GA 30307 </p>
+        <p><i class="fa fa-phone"></i>  +404-555-5555  </p>
+        <p><i class="fa fa fa-envelope"></i> info@smithcolsulting.com  </p>
+        
+        </div>
+        
+        <div class=" col-sm-4 col-md  col-6 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">News</h5>
+        <!--headin5_amrc-->
+        <ul class="footer_ul_amrc">
+        <li><a href="">Mental Health</a></li>
+        <li><a href="">Schools</a></li>
+        <li><a href="">COVID-19</a></li>
+        <li><a href="">Media</a></li>
+        <li><a href="">Atlanta</a></li>
         </ul>
-      </div>
-    </nav>
-
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-8">Insight Community Health Evaluation Consulting</h1>
-        <p class="lead">A very catchy tagline</p>
-      </div>
-    </div>
-
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../Static/img/MiddleSchoolStudentsSmiling.jpeg" class="d-block w-100" alt="smiling_students">
-          <div class="carousel-caption d-none d-md-block">
-            <!-- <h4>First slide label</h4> -->
-            <h5>Working with schools across Georgia</h5>
-          </div>
+        <!--footer_ul_amrc ends here-->
         </div>
-        <div class="carousel-item">
-          <img src="../Static/img/CommunityGardening.jpeg" class="d-block w-100" alt="community_gardening">
-          <div class="carousel-caption d-none d-md-block">
-            <!-- <h5>Second slide label</h5> -->
-            <h4>Building a healthier community</h4>
-          </div>
+        
+        
+        <div class=" col-sm-4 col-md  col-6 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+        <!--headin5_amrc-->
+        <ul class="footer_ul_amrc">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Industries</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Insights</a></li>
+        <li><a href="">Solutions</a></li>
+        </ul>
+        <!--footer_ul_amrc ends here-->
         </div>
-        <div class="carousel-item">
-          <img src="../Static/img/TeenSmilingMindfulness.jpeg" class="d-block w-100" alt="mental_health">
-          <div class="carousel-caption d-none d-md-block">
-            <!-- <h5>Third slide label</h5> -->
-            <h4>Shining a light on mental health</h4>
-          </div>
+        
+        
+        <div class=" col-sm-4 col-md  col-12 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+        <!--headin5_amrc ends here-->
+        
+        <ul class="footer_ul2_amrc">
+        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+        </ul>
+        <!--footer_ul2_amrc ends here-->
         </div>
-        <div class="carousel-item">
-          <img src="../Static/img/collaborating.jpeg" class="d-block w-100" alt="collaborating">
-          <div class="carousel-caption d-none d-md-block">
-            <!-- <h5>Fourth slide label</h5> -->
-            <h4>Partner with experts</h4>
-          </div>
         </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
-    <div>
-
+        </div>
+        
+        
+        <div class="container">
+        <ul class="foote_bottom_ul_amrc">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Industries</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Solutions</a></li>
+        <li><a href="">Contact</a></li>
+        </ul>
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center">Copyright @2021 | Designed for INSIGHTS <a href="#"></a></p>
+        
+        <ul class="social_footer_ul">
+        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <!--social_footer_ul ends here-->
+        </div>
+        
+        </footer>
+  
     </div>
   
-
-
-    
-    
-
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="../Static/app.js"></script>
 
