@@ -5,6 +5,15 @@ from flask import Flask
 from flask_mail import Mail, Message
 import smtplib
 from flask_wtf import form
+import os 
+import sys
+from config import *
+
+# Get environment variables
+USER = os.getenv('API_USER')
+PASSWORD = os.environ.get('API_PASSWORD')
+
+
 
 
 
@@ -14,8 +23,8 @@ app = Flask(__name__)
 app.secret_key = 'development key'
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
-app.config['MAIL_USERNAME'] = 'donley.gustave@gmail.com'
-app.config['MAIL_PASSWORD'] = 'rav3ma5t3r'
+app.config['MAIL_USERNAME'] = USER
+app.config['MAIL_PASSWORD'] = PASSWORD
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 
@@ -32,24 +41,25 @@ def contact():
     # server.quit()
     if form.validate_on_submit():        
         print('-------------------------')
-        print(request.form['first_name'] + ' ' + request.form['last_name'])
+        name = request.form['first_name'] + ' ' + request.form['last_name']
+        print(name)
         print(request.form['email'])
         print(request.form['subject'])
         print(request.form['body'])       
         print('-------------------------')
         send_message(request.form)
-        server = smtplib.SMTP('smtp.gmail.com', 465)
-        server.starttls()
-        server.login("donley.gustave@gmail.com", "rav3ma5t3r")
-        server.sendmail("donley.gustave@gmail.com", form.email, form.body)
-        server.quit()
+        # server = smtplib.SMTP('smtp.gmail.com', 465)
+        # server.starttls()
+        # server.login("donley.gustave@gmail.com", "rav3ma5t3r")
+        # server.sendmail("donley.gustave@gmail.com", form.email, form.body)
+        # server.quit()
         return redirect('/success')    
 
     return render_template('contact.html', form=form)
 
 @app.route('/success')
 def success():
-    return render_template('home.html')
+    return redirect(url_for('contact'), form= form)
 
 def send_message(message):
     print(message.get('name'))
