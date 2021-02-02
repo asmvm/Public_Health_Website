@@ -9,10 +9,10 @@
   display: inline-block;
   overflow: hidden;
   height: 800px;
-  width: 1885px;
-  top:10px;
+  width: 1700px;
+  top:5px;
   bottom: 20px;
-  padding-left: 30px;
+  padding-left: 0px;
 
 
 
@@ -29,17 +29,23 @@
     font-size: 25px;
     border-radius: 8px 8px 0 0 ;
     margin-top: 15px;
-    right: 374px;
+    right: 133px;
   }
   
   #tabs .tab-content {
     color : black;
     background-color: white;
-    padding : 100px 200px;
+    padding : 100px 130px;
     margin-top: 0px;
     padding-bottom: 500px;
     position: absolute;
     left: 18px;   
+  }
+
+  .card{
+    margin-left: 80%;      
+    margin-right: 18%;
+    width: auto;
   }
   
   h3{
