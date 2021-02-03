@@ -177,13 +177,16 @@ h1.fonty {
   font-family: 'Tangerine', serif;
   color: rgb(255, 255, 255);
   font-size: 80px;
+  
   /* text-shadow: 4px 4px 4px #aaa; */
 }
 
 
 .jumbotron-bloom{
-  right: 50%;
+  position: relative;
+  /* right: 50%; */
   background-color:#12172b;
+  top: -100px; /* Moves the image 2px closer to the top of the page */
 
 }
 
@@ -195,6 +198,8 @@ h1.fonty {
    .icon-bar {
     width: 100%;
     background-color: #12172b;
+    position: relative;
+    top: -100px; 
     overflow: auto;
   }
   
@@ -619,8 +624,8 @@ input {
 }
 
 .card-1 .card-heading {
-  background: url("../images/bg-head-02.jpg") center center/cover no-repeat;
-  padding-top: 210px;
+  /* background: url("../images/bg-head-02.jpg") center center/cover no-repeat; */
+  padding-top: -300px;
 }
 
 .card-1 .card-body {
@@ -635,4 +640,9 @@ input {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+}
+
+a img{
+  position: relative; /* Declared position allows for location changes */
+  top: -100px; /* Moves the image 2px closer to the top of the page */
 }
