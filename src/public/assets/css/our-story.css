@@ -25,18 +25,6 @@
   color: teal;
 }
 
-/* styling for the image at the top of the page.*/
-/* .center {   
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  height: 800px;
-  width: 1880px;
-  top:5px;
-  bottom: 20px;
-  padding-left: 20px;
-} */
-
 .center{
   display: inline;
   height: 800px;
@@ -53,17 +41,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* styling for the tab content*/
-/* #myTabContent .tab-content {
-  color : black;
-  background-color: red;
-  padding : 100px 130px;
-  margin-top: 0px;
-  left: 18px; 
-    
-} */
-
 
 
 /* styling for the employee cards.*/
