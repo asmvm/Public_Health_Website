@@ -45,7 +45,7 @@
 
 /* styling for the employee cards.*/
 .card{
-  margin-top: -100px;
+  margin-top: -20px;
   margin-left: 0px;      
   width: 15rem;
 }
@@ -142,7 +142,7 @@ p {
   align-items: center;
 }
 .timeline-area {
-  padding: 80px 0;
+  padding: 10px 0;
 }
 .all-timelines {
   position: relative;
