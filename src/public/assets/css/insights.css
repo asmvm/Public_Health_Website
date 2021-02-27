@@ -100,6 +100,22 @@
   transition: background 0.2s ease-in-out;
 }
 
+#covid{
+  height: 300px;
+  width: 600px;
+}
+
+#tele{
+  width: 600px;
+}
+
+#m_health{
+  width: 600px;
+}
+
+#m_change{
+  width: 600px;
+}
 /*FOOTER STYLING STARTS HERE*/
 /* Credit to https://bootsnipp.com/snippets/bxDBA */
 .col_white_amrc { color: #F4E8C1;}
