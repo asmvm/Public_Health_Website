@@ -1,10 +1,12 @@
 /* CUSTOM NAVBAR STYLING BEGINS HERE */ 
 .navbar-custom {
-  background-color:#12172b;
+  /* background-color:#12172b; */
+  background-color: #613A43;
 }
 /* change nav link text color */
 .navbar-custom .nav-item {
-  color: rgba(255,255,255,.8);
+  /* color: rgba(255,255,255,.8); */
+  color: black;
   font-weight: bolder;
   font-size: 17px;
 }
@@ -91,12 +93,13 @@
 }
 
 /* EMPLOYEE PROFILE OPTION 1 STYLING HERE */
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Open+Sans&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Asap&family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&family=Vesper+Libre&display=swap');
 .kontainer {
-  background-color: #12172b ;
-  font-family: "ASAP", sans-serif;
-  color: white;
+  background-color: #DFE2D2 ;
+  font-family: 'Vesper Libre', serif;
+  color: #613A43;
+  font-weight: bolder;
   line-height:normal; 
 }
 .title-row {
@@ -125,7 +128,7 @@
 .profile .profile-img {
   height: 55%;
   width: 70%;
-  /* border-radius: 50%; */
+  border-radius: 100%;
   filter: grayscale(100%);
   cursor: pointer;
   transition: 400ms;
@@ -204,6 +207,7 @@
 }
 .team img {
   height: auto;
+  
 }
 
 .team .member {
@@ -324,7 +328,7 @@
 /* Back to top button credit to BootstrapMade */
 #return-to-top {
   position: fixed;
-  display: none;
+  /* display: none; */
   width: 40px;
   height: 40px;
   border-radius: 3px;
@@ -352,7 +356,7 @@
 
 /*FOOTER STYLING STARTS HERE*/
 /* Credit to https://bootsnipp.com/snippets/bxDBA */
-.col_white_amrc { color:#FFF;}
+/* .col_white_amrc { color:#FFF;}
 footer { width:100%; background-color:#12172b; min-height:250px; padding:10px 0px 25px 0px ;}
 .pt2 { padding-top:40px ; margin-bottom:20px ;}
 footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
@@ -385,4 +389,40 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
 .social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
 .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;} */
+
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#613A43; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:2px solid; background-color:#613A43; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
