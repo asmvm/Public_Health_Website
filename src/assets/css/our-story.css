@@ -1,0 +1,289 @@
+/* CUSTOM NAVBAR STYLING BEGINS HERE */ 
+.navbar-custom {
+  background-color:#12172b;
+}
+/* change nav link text color */
+.navbar-custom .nav-item {
+  color: rgba(255,255,255,.8);
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.navbar-custom .navbar-brand {
+  color:white;
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: 'Syncopate', sans-serif;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color:white;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #FFF49C;
+}
+
+.center{
+  display: inline;
+  height: 800px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* styling for centering the text in the image at the top of the page.*/
+.centered {
+  color:white;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* styling for the employee cards.*/
+.card{
+  margin-top: -20px;
+  margin-left: 0px;      
+  width: 15rem;
+}
+
+
+h3{
+  text-size-adjust: auto;
+}
+
+#pills-tab .nav-item{
+  background-color: #12172b;
+  font-size: 25px;
+  
+}
+
+#news{
+  padding-bottom: 20px;
+}
+
+#comp_car{
+  padding-top: 200px;
+}
+
+
+/* Back to top button credit to BootstrapMade */
+#return-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  right: 15px;
+  bottom: 15px;
+  background: #1bac91;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+}
+
+#return-to-top i {
+  font-size: 24px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+#return-to-top:hover {
+  color: #fff;
+  background: #18967e;
+  transition: background 0.2s ease-in-out;
+}
+
+/* Timeline styling */
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  margin: 0;
+}
+p {
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.timelines h2 {
+  text-align: center;
+  color:  black;
+  font-weight: 600;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+.d-flex-2 {
+  display: flex;
+  align-items: center;
+}
+.timeline-area {
+  padding: 10px 0;
+}
+.all-timelines {
+  position: relative;
+}
+.timelines h2 {
+  text-align: center;
+  color:  black
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.all-timelines::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+  width: 2px;
+  background: #efa22f;
+  top: 20px;
+}
+.single-timeline {
+  margin-bottom: 22px;
+}
+.timeline-blank {
+  width: 50%;
+}
+.timeline-text {
+  width: 50%;
+  padding-left: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+.timeline-text h6 {
+  color:  black;
+  font-weight: 900;
+  display: inline-block;
+  font-size: 1rem;
+}
+.timeline-text span {
+  color:  black;
+  display: block;
+  width: 100%;
+}
+.single-timeline:nth-child(even) .timeline-text span {
+  text-align: right;
+}
+.t-square {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -6px;
+  background: #efa22f;
+}
+.single-timeline:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.single-timeline:nth-child(even) .t-square {
+  right: -6px;
+  left: unset;
+}
+.single-timeline:nth-child(even) .timeline-text {
+  padding-left: 0;
+  padding-right: 30px;
+  text-align: right;
+}
+
+@media all and (max-width: 991px) {
+}
+@media all and (max-width: 768px) {
+  .all-timelines::before {
+    right: unset;
+    top: 0;
+  }
+  .single-timeline:nth-child(2n) .timeline-text {
+    padding-left: 30px;
+    padding-right: 0;
+    text-align: left;
+  }
+  .single-timeline:nth-child(2n) .t-square {
+    left: -6px;
+    right: unset;
+  }
+  .timeline-blank {
+    display: none;
+  }
+  .timeline-text {
+    width: 100%;
+  }
+  .single-timeline:nth-child(even) .timeline-text span {
+    text-align: left !important;
+  }
+}
+@media all and (max-width: 575px) {
+}
+@media all and (max-width: 360px) {
+  .all-timelines::before {
+    top: 32px;
+  }
+}
+
+
+
+/*FOOTER STYLING STARTS HERE*/
+/* Credit to https://bootsnipp.com/snippets/bxDBA */
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#12172b; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:2px solid; background-color:#12172b; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
