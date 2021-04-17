@@ -12,6 +12,24 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
+// Clients carousel (uses the Owl Carousel library)
+$(".clients-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      768: {
+        items: 4
+      },
+      900: {
+        items: 6
+      }
+    }
+  });
+
 // Back to top button
 // $(window).scroll(function() {
 //     if ($(this).scrollTop() > 100) {
