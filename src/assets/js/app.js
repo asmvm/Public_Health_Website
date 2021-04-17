@@ -27,8 +27,11 @@ $(".clients-carousel").owlCarousel({
       900: {
         items: 6
       }
-    }
-  });
+    },
+  
+});
+
+
 
 // Back to top button
 // $(window).scroll(function() {
