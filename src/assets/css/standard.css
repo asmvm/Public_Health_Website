@@ -44,6 +44,12 @@
   font-weight: bolder;
   font-family: 'Syncopate', sans-serif;
 }
+.navbar-custom .navbar-brand .small-title {
+  font-size: 15px;
+  position: initial;
+}
+
+
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
   color:white;
