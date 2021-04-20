@@ -543,7 +543,8 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  /* background-image: ("assets/img/upwards_arrow.jpeg") center top no-repeat fixed; */
+  background-image: URL("../img/People_Holding_Hands.jpeg");
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
