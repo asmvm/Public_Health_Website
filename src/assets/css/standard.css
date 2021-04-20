@@ -33,7 +33,7 @@
 
 .navbar-custom .navbar-nav .nav-item .nav-link{
   /* color: rgba(255,255,255,.8); */
-  color: white;
+  color: rgb(255, 255, 255);
   /* font-weight: bolder; */
   font-size: 19px;
 }
