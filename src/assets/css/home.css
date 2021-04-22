@@ -560,8 +560,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  /* background-image: ("assets/img/upwards_arrow.jpeg") center top no-repeat fixed; */
-  background-image: URL("../img/People_Holding_Hands.jpeg");
+  background: URL("../img/focus-group.jpeg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -575,7 +574,7 @@ section {
   top: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.92);
-  z-index: 9;
+  z-index: 1;
 }
 
 #about .container {
@@ -701,7 +700,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/upwards_arrow.jpeg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -736,43 +735,27 @@ section {
   border: 2px solid #18d26e;
 }
 
-/* Call To Action Section
---------------------------------*/
-#skills {
-  padding: 60px 0;
-}
-
-#skills .progress {
-  height: 35px;
-  margin-bottom: 10px;
-}
-
-#skills .progress .skill {
-  font-family: "Open Sans", sans-serif;
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-}
-
-#skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
-}
-
-#skills .progress-bar {
-  width: 1px;
-  text-align: left;
-  transition: .9s;
-}
-
 
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
-  padding: 60px 0; 
+  background: URL("../img/Atlanta_Skyline.jpeg") center top no-repeat fixed;
+  background-size: cover;
+  /* background: #fff; */
+  padding: 60px 0;
+  position:relative;
+  opacity: .85; 
+}
+
+#team::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.88);
+  /* z-index: 9; */
 }
 
 #team .member {
