@@ -683,6 +683,44 @@ section {
 
 /* Call To Action Section
 --------------------------------*/
+#call-to-action {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#call-to-action h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action p {
+  color: #fff;
+}
+
+#call-to-action .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#call-to-action .cta-btn:hover {
+  background: #18d26e;
+  border: 2px solid #18d26e;
+}
+
+/* Call To Action Section
+--------------------------------*/
 #skills {
   padding: 60px 0;
 }
@@ -717,7 +755,7 @@ section {
 --------------------------------*/
 #team {
   background: #fff;
-  padding: 60px 0;
+  padding: 60px 0; 
 }
 
 #team .member {
@@ -727,6 +765,13 @@ section {
   position: relative;
 }
 
+#team .member .img-fluid {
+  object-fit: cover;
+  object-position:center;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}  
 
 #team .member .member-info {
   opacity: 0;
