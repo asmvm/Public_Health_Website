@@ -490,18 +490,35 @@ section {
 .carousel-item {
   height: 30rem;
 }
-.carousel-item > img {
+.carousel-item .img {
 
   top: 0;
   left: 0;
   min-width: 100%;
   height: 55rem;
+
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 /* Featured Services Section
 --------------------------------*/
+#featured-services .company-name {
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 #featured-services {
-  background: #000;
+  background: #12172b;
 }
 
 #featured-services .box {
@@ -509,7 +526,7 @@ section {
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  background-image: linear-gradient(to bottom right, #12172b 0%, #12172b 50%, #12172b 100%);
 }
 
 #featured-services i {
