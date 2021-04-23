@@ -566,6 +566,10 @@ section {
   position: relative;
 }
 
+#about .section-header {
+  padding: 2rem;
+}
+
 #about::before {
   content: '';
   position: absolute;
@@ -700,10 +704,12 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/upwards_arrow.jpeg) fixed center center;
+  background: url("../img/upwards_arrow.jpeg") fixed center center;
   background-size: cover;
   padding: 60px 0;
+  opacity: .55;
 }
+
 
 #call-to-action h3 {
   color: #fff;
@@ -739,7 +745,7 @@ section {
 /* Team Section
 --------------------------------*/
 #team {
-  background: URL("../img/Atlanta_Skyline.jpeg") center top no-repeat fixed;
+  background: URL("../img/city-skyline.jpeg") center top no-repeat fixed;
   background-size: cover;
   /* background: #fff; */
   padding: 60px 0;
