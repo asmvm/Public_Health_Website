@@ -60,10 +60,10 @@
       font-size: 17px;
     }
     
-    .nav-item:hover{
+    /* .nav-item:hover{
       padding: 10px 10px;
       
-    }
+    } */
     
     .navbar-custom .navbar-brand {
       color:#80A142;
@@ -515,15 +515,29 @@
      ========================================================================== */
   .wrapper {
     margin: 0 auto;
+    max-width: 960px; /* 20px smaller, to fit the paddings on the sides */
+
+    /* padding-right: 10px;
+    padding-left: 10px; */
   }
+
   .wrap-padding {
     position: relative;
-    top: 50px;
+    bottom: 50px;
   }
   
   .wrapper--w680 {
     max-width: 680px;
   }
+  
+  section {
+    height: 100vh;
+  }
+
+  section:nth-child(n+2) {
+    background: #80A142;
+  }
+
   
   /* ==========================================================================
      #BUTTON
@@ -677,88 +691,7 @@
     /* ==========================================================================
      #Icon Tabs
      ========================================================================== */
-  
-     .icon-tab {
-      margin-top: 30px;
-    
-      text-align : center;
-      cursor: pointer;
-  }
-  
-  .icon-tab span.glyphicon {
-      display : block;
-      font-size: 35px;
-  
-      color: #8d98b8;
-  
-      margin:  0px auto;
-      line-height: 65px;
-  
-      transition-duration: 0.25s;
-  }
-  
-  .icon-tab span.glyphicon::before {
-      padding: 2px 6.5px;
-      border-radius: 80%;
-  }
-  
-  
-  .icon-tab.active span.glyphicon {
-      color: white;
-      margin-bottom: 10px;
-  }
-  
-  .icon-tab.active span.glyphicon::before {
-      padding: 15px 19.5px;
-      border-radius: 100%;
-     background: linear-gradient(to bottom right, #24C6DC, #514A9D);
-  
-      transition-duration: 0.4s;
-  }
-  
-  
-  .icon-label {
-      color:  #b3b3b3;
-      font-size: 16px;  
-    
-      transition-duration: 0.35s;
-  }
-  
-  
-  .icon-tab.active .icon-label, .icon-tab:hover .icon-label {
-      color: black;
-  }
-  
-  .icon-tab:hover span.glyphicon {
-      margin-bottom: 10px;
-  }
-  
-  
-  .item {
-    margin-top: 50px;
-  }
-  
-  
-  @media (max-width:767px) { 
-      .icon-tab {
-          
-      }
-    
-      .icon-tab span {
-          display: inline !important;
-          vertical-align : middle;
-      }  
-    
-      .icon-tab.active span.glyphicon {
-          padding-right: 10px;
-      }
-    
-      .icon-tab:hover span.glyphicon {
-          padding-right: 10px;
-          transition-duration: 0.25s;
-      }
-  }
-  
+ 
 
   /* ==========================================================================
      #EMPLOYEE PROFILE
@@ -1048,6 +981,7 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
     background: #F8F3E6;
+    top: 50px;
   }
   
   .card-1 {
@@ -1059,7 +993,7 @@
   
   .card-1 .card-heading {
     /* background: url("../images/bg-head-02.jpg") center center/cover no-repeat; */
-    padding-top: -300px;
+    /* padding-top: -300px; */
   }
   
   .card-1 .card-body {
