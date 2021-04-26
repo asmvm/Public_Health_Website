@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Optional: d3.js for dynamic charts -->
-    <script src="https://d3js.org/d3.v5.min.js"></script> 
 
     <!-- Script for the footer -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
@@ -24,16 +25,25 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     
     <!-- vendor CSS Files * Author: BootstrapMade.com -->
-    <link href="assets/css/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/neil_styles.css">
+    <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+    <link rel="stylesheet" href="assets/css/standard.css">
+    <link rel="stylesheet" href="assets/css/home.css">
     
     <title>Insight Community Health Evaluation Partners</title>
     <!-- Insert company logo/icon -->
     <!-- <link rel="icon" href="" -->
     
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <!-- FOOTER STYLESHEETS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -43,15 +53,16 @@
   
   <body>
 
-    <div class="container-fluid">     
+    <div class="container-fluid">
+           
       <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> -->
       <nav class="navbar navbar-expand-lg py-4 navbar-dark navbar-custom">
-        <a class="navbar-brand" href="index.html"data-tooltip= "Go to the homepage" data-tooltip-location="bottom" >INSIGHT</a>
+        <a class="navbar-brand" href="index.html"data-tooltip= "Go to homepage" data-tooltip-location="bottom" >INSIGHT  <span>Community Health Evaluators</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Who We Are
@@ -63,7 +74,7 @@
               </div>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">HOME </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="templates/who-we-are.html">WHO WE ARE</a>
@@ -89,6 +100,11 @@
 
           </ul>
         </div>
+        <!-- <div class="hamburger-container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div> -->
       </nav>
          
             
@@ -111,28 +127,28 @@
                 <img src="assets/img/MiddleSchoolStudentsSmiling.jpeg" class="d-block w-100" alt="smiling_students">
                 <div class="carousel-caption d-none d-md-block">
                   <!-- <h4>First slide label</h4> -->
-                  <h5>Working with schools across Georgia</h5>
+                  <h1>Working with schools across Georgia</h1>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="assets/img/CommunityGardening.jpeg" class="d-block w-100" alt="community_gardening">
                 <div class="carousel-caption d-none d-md-block">
                   <!-- <h5>Second slide label</h5> -->
-                  <h4>Building a healthier community</h4>
+                  <h1>Building healthier communities</h1>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="assets/img/TeenSmilingMindfulness.jpeg" class="d-block w-100" alt="mental_health">
                 <div class="carousel-caption d-none d-md-block">
                   <!-- <h5>Third slide label</h5> -->
-                  <h4>Shining a light on mental health</h4>
+                  <h1>Shining a light on mental health</h1>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="assets/img/collaborating.jpeg" class="d-block w-100" alt="collaborating">
                 <div class="carousel-caption d-none d-md-block">
                   <!-- <h5>Fourth slide label</h5> -->
-                  <h4>Partner with experts</h4>
+                  <h1>Partner with experts</h1>
                 </div>
               </div>
             </div>
@@ -150,87 +166,177 @@
         <!-- ROW ENDS HERE -->
       </div>
 
-      <br>
-      <hr class ="solid">
-      <br>
+    
 
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
+      <div class="container-fluid">
 
-      <div class="container marketing">
+        <!-- ======= Featured Services Section Section ======= -->
+        <section id="featured-services">
+          <div class="container">
+            
+            <!-- <div class="row">
+              <div class="col-12">
+                <div class="company-name">
+                  <h1>Community Health Evaluation Consultants</h1>
+                </div>
+              </div>              
+            </div> -->
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <svg class="bd-placeholder-img" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-    
-            <h2>Heading</h2>
-            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <svg class="bd-placeholder-img" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-    
-            <h2>Heading</h2>
-            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <svg class="bd-placeholder-img" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-    
-            <h2>Heading</h2>
-            <p>And lastly this, the third column of representative placeholder content.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-          
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-    
-    
-        <!-- START THE FEATURETTES -->
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+            <div class="row">       
+              <div class="col-lg-4 box">
+                <i class="ion-ios-bookmarks-outline"></i>
+                <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              </div>
+
+              <div class="col-lg-4 box box-bg">
+                <i class="ion-ios-stopwatch-outline"></i>
+                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              </div>
+
+              <div class="col-lg-4 box">
+                <i class="ion-ios-heart-outline"></i>
+                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              </div>
+
+            </div>
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-    
+        </section><!-- End Featured Services Section -->
+        
+        <!-- ======= About Us Section ======= -->
+        <section id="about">
+          <div class="container" data-aos="fade-up">
+
+            <header class="section-header">
+              <h3>About Us</h3>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+            </header>
+
+            <div class="row about-cols">
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-col">
+                  <div class="img">
+                    <img src="assets/img/about-mission.jpg" alt="" class="img-fluid">
+                    <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                  </div>
+                  <h2 class="title"><a href="#">Our Mission</a></h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-col">
+                  <div class="img">
+                    <img src="assets/img/about-plan.jpg" alt="" class="img-fluid">
+                    <div class="icon"><i class="ion-ios-list-outline"></i></div>
+                  </div>
+                  <h2 class="title"><a href="#">Our Plan</a></h2>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="about-col">
+                  <div class="img">
+                    <img src="assets/img/about-vision.jpg" alt="" class="img-fluid">
+                    <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+                  </div>
+                  <h2 class="title"><a href="#">Our Vision</a></h2>
+                  <p>
+                    Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
           </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </section><!-- End About Us Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services">
+          <div class="container" data-aos="fade-up">
+
+            <header class="section-header wow fadeInUp">
+              <h3>Services</h3>
+              <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+            </header>
+
+            <div class="row">
+
+              <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              </div>
+              <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              </div>
+              <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              </div>
+              <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                <h4 class="title"><a href="">Magni Dolores</a></h4>
+                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              </div>
+              <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
+                <h4 class="title"><a href="">Nemo Enim</a></h4>
+                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              </div>
+              <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon"><i class="ion-ios-people-outline"></i></div>
+                <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              </div>
+
+            </div>
+
           </div>
-          <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        </section><!-- End Services Section -->
     
+        <!-- ======= Call To Action Section ======= -->
+        <section id="call-to-action">
+          <div class="container text-center" data-aos="zoom-in">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a class="cta-btn" href="templates/contact-us.html">Contact Us</a>
           </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        </section><!-- End Call To Action Section -->
+
+        <!-- ======= Our Clients Section ======= -->
+        <section id="clients">
+          <div class="container" data-aos="zoom-in">
+
+            <header class="section-header">
+              <h3>Our Community Partners</h3>
+            </header>
+
+            <div class="owl-carousel clients-carousel">
+              <img src="assets/img/clients/SOR_Vertical_Red_Logo.svg" alt="">
+              <img src="assets/img/clients/El_Doctor_Mancini_SVG.svg" alt="">
+              <img src="assets/img/clients/SOR_Vertical_Red_Logo.svg" alt="">
+              <img src="assets/img/clients/El_Doctor_Mancini_SVG.svg" alt="">
+              <img src="assets/img/clients/SOR_Vertical_Red_Logo.svg" alt="">
+              <img src="assets/img/clients/El_Doctor_Mancini_SVG.svg" alt="">
+              <img src="assets/img/clients/SOR_Vertical_Red_Logo.svg" alt="">
+              <img src="assets/img/clients/El_Doctor_Mancini_SVG.svg" alt="">
+            </div>
+
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-    
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <!-- /END THE FEATURETTES -->
+        </section><!-- End Our Clients Section -->
     
       </div><!-- /.container -->
 
@@ -245,212 +351,96 @@
         </article>
       </div> -->  
 
-      <br>
-      <hr class ="solid">
-      <br>
-
-          
-      <!-- <div id="card-columns" class="card-deck">
-        <div class="card">
-          <img src="assets/img/People_Holding_Hands.jpeg" class="card-img-bottom" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Insight 1</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
+      <!-- ======= Team Section ======= -->
+      <section id="team">
+        
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h3>Our Team</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
           </div>
-        </div>
 
-        <div class="card">
-          <img src="assets/img/People_Holding_Hands.jpeg" class="card-img-bottom" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Insight 2</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-          
-        </div>
-          
-        <div class="card">
-          <img src="assets/img/People_Holding_Hands.jpeg" class="card-img-bottom" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Insight 3</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
+          <div class="row">
 
-        <div class="card">
-          <img src="assets/img/People_Holding_Hands.jpeg" class="card-img-bottom" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Insight 4</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div> -->
-    
-      <!-- <br>
-      <hr class ="solid">
-      <br> -->
-
-      <!-- <div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title"> Highlight 1</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-lg-3 col-md-6">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/profiles/pexels-edmond-dantès-4342352.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Megan Smith</h4>
+                    <span>Founder and CEO</span>
+                    <div class="social">
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                      <a href=""><i class="fab fa-google-plus"></i></a>
+                      <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Highight 2</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="member" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/profiles/pexels-cottonbro-5971254.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Katherine Moran</h4>
+                    <span>Evaluation Specialist</span>
+                    <div class="social">
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                      <a href=""><i class="fab fa-google-plus"></i></a>
+                      <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Highlight 3</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <img src="assets/img/profiles/pexels-edmond-dantès-4342352.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Fiana Thacker</h4>
+                    <span>Evaluation Specialist</span>
+                    <div class="social">
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                      <a href=""><i class="fab fa-google-plus"></i></a>
+                      <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>   
-      </div> -->
 
-      <!-- <br>
-      <hr class ="solid">
-      <br> -->
+            <div class="col-lg-3 col-md-6">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/img/profiles/pexels-cottonbro-5971254.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Michelle Herrera</h4>
+                    <span>Evaluation Specialist</span>
+                    <div class="social">
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                      <a href=""><i class="fab fa-google-plus"></i></a>
+                      <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      <!-- <div class="title-row">
-        <h1 class="title" style="margin-left: 10px; text-align: center; padding-bottom: 10px;"> Our experts</h1>
-      </div> -->
+          </div>
 
-      <!-- Team Profile Option 1-->        
-      <div class="kontainer">
-        <!-- <h1 class="title"><span>meet</span>Our Team</h1> -->
-        <div class="profiles">
-          <div class="profile">
-            <img src="assets/img/profiles/pexels-edmond-dantès-4342352.jpg" class="profile-img">
-            <h3 class="user-name">Megan Smith</h3>
-            <h5>Founder and Lead Evaluator</h5>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-          </div>
-          <div class="profile">
-            <img src="assets/img/profiles/pexels-edmond-dantès-4342352.jpg" class="profile-img">
-            <h3 class="user-name">Katie Moran</h3>
-            <h5>Program Evaluation Specialist</h5>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-          </div>
-          <div class="profile">
-            <img src="assets/img/profiles/pexels-edmond-dantès-4342352.jpg" class="profile-img">
-            <h3 class="user-name">Fiana Thacker</h3>
-            <h5>Program Evaluation Specialist</h5>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-          </div>
-          <div class="profile">
-            <img src="assets/img/profiles/pexels-edmond-dantès-4342352.jpg" class="profile-img">
-            <h3 class="user-name">Michelle Herrera</h3>
-            <h5>Program Evaluation Specialist</h5>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-          </div>
         </div>
-      </div>
+      </section><!-- End Team Section -->
 
       <br>  
-      
-      <!-- ======= Team Profile Option 2 ======= -->
-      <!-- <section id="team" class="team">
-        
-        <div class="section-title" data-aos="fade-up">
-          <h1 style="text-align: center;">Meet our experts</h1>
-          
-        </div>
-
-        
-        <div class="teams-maxim">
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
-            <div class="member">
-            <img src="assets/img/profiles/pexels-cottonbro-5971254.jpg" class="img-fluid" alt="Founder and CEO">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Megan Smith</h4>
-                <span>Founder and Lead Evaluator</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-            <img src="assets/img/profiles/pexels-cottonbro-5971254.jpg" class="img-fluid" alt="Associate">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Katie Moran</h4>
-                <span>Program Evaluation Specialist</span>
-              </div>
-                <div class="social">
-                <a href=""><i class="icofont-twitter"></i></a>
-                <a href=""><i class="icofont-facebook"></i></a>
-                <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-              </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <img src="assets/img/profiles/pexels-cottonbro-5971254.jpg" class="img-fluid" alt="Associate">
-              <div class="member-info">
-              <div class="member-info-content">
-                  <h4>Fiana Thacker</h4>
-                  <span>Program Evaluation Specialist</span>
-                </div>
-              <div class="social">
-                <a href=""><i class="icofont-twitter"></i></a>
-                <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="member">
-            <img src="assets/img/profiles/pexels-cottonbro-5971254.jpg" class="img-fluid" alt="Associate">
-              <div class="member-info">
-                <div class="member-info-content">
-                <h4>Michelle Herrera</h4>
-                  <span>Program Evaluation Specialist</span>
-                </div>
-              <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-          </div>
-          </div>
-        </div>
-        
-      </section> -->
-      <!-- End Team Section -->
 
       <hr>
       <br>
@@ -529,7 +519,7 @@
         <p class="text-center">Copyright @2021 | Designed for INSIGHTS <a href="#"></a></p>
         
         <ul class="social_footer_ul">
-        <li><a href="" data-tooltip= "Visit our facebook page" data-tooltip-location="left" ><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="" data-tooltip= "Visit our Facebook page" data-tooltip-location="left" ><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="" data-tooltip= "Visit our Twitter page" data-tooltip-location="left" ><i class="fab fa-twitter"></i></a></li>
         <li><a href="" data-tooltip= "Visit our LinkedIn page" data-tooltip-location="left" ><i class="fab fa-linkedin"></i></a></li>
         <li><a href="" data-tooltip= "Visit our Instagram page" data-tooltip-location="left" ><i class="fab fa-instagram"></i></a></li>
@@ -545,15 +535,28 @@
     </div>
 
     <!-- SCROLL TO TOP OF PAGE BUTTON BEGINS HERE -->
-    <a href="#" id="return-to-top" style="display: none;">
+    <a href="#" id="return-to-top">
       <i class="icon-chevron-up"></i>
     </a>
     
     <!-- Load jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  
-    <!-- Optional JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script> -->
+    
+    <!-- OWL Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    
+    <!-- Main JavaScript -->
     <script type="text/javascript" src="assets/js/app.js"></script>
+    
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
@@ -571,14 +574,18 @@
     
     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
-    <script src="/__/firebase/8.2.6/firebase-app.js"></script>
+    <!-- <script src="/__/firebase/8.2.6/firebase-app.js"></script> -->
+    <script src="/__/firebase/8.4.1/firebase-app.js"></script>
 
     <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
-    <script src="/__/firebase/8.2.6/firebase-analytics.js"></script>
+    <!-- <script src="/__/firebase/8.2.6/firebase-analytics.js"></script> -->
+    <script src="/__/firebase/8.4.1/firebase-analytics.js"></script>
 
     <!-- Add Firebase products that you want to use -->
-    <script src="/__/firebase/8.2.6/firebase-auth.js"></script>
-    <script src="/__/firebase/8.2.6/firebase-firestore.js"></script>
+    <!-- <script src="/__/firebase/8.2.6/firebase-auth.js"></script>
+    <script src="/__/firebase/8.2.6/firebase-firestore.js"></script> -->
+    <script src="/__/firebase/8.4.1/firebase-auth.js"></script>
+    <script src="/__/firebase/8.4.1/firebase-firestore.js"></script>
 
   </body>
 </html>
