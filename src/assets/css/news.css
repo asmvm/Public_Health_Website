@@ -1024,7 +1024,7 @@
     background: #F8F3E6;
   }
   
-  a img{
+  #news a img{
     position: relative; /* Declared position allows for location changes */
     top: -100px; /* Moves the image 2px closer to the top of the page */
   }
