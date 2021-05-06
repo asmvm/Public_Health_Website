@@ -559,7 +559,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: URL("../img/focus-group.jpeg") center top no-repeat fixed;
+  background: URL("../img/adobe/focus-group.jpeg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -703,7 +703,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: url("../img/upwards_arrow.jpeg") fixed center center;
+  background: url("../img/adobe/upwards_arrow.jpeg") fixed center center;
   background-size: cover;
   padding: 60px 0;
   opacity: .55;
@@ -744,7 +744,7 @@ section {
 /* Team Section
 --------------------------------*/
 #team {
-  background: URL("../img/city-skyline.jpeg") center top no-repeat fixed;
+  background: URL("../img/adobe/city-skyline.jpeg") center top no-repeat fixed;
   background-size: cover;
   /* background: #fff; */
   padding: 60px 0;
