@@ -39,6 +39,10 @@
   font-size: 19px;
 }
 
+.navbar-custom .navbar-nav .nav-item .nav-link:hover {
+  color: #18d26e;
+}
+
 .navbar-custom .navbar-brand {
   color:white;
   font-size: 60px;
