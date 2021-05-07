@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Favicons -->
+    <link href="../assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Optional: d3.js for dynamic charts -->
-    <script src="https://d3js.org/d3.v5.min.js"></script> 
+
     <!-- Script for the footer -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 
@@ -17,41 +19,49 @@
     
     <!-- Google Fonts API -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Faster+One&family=Monoton&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Faster+One&family=Monoton&family=Montserrat:wght@900&family=Syncopate:wght@700&display=swap" rel="stylesheet">
 
-    <!-- SCROLL UP ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+    <!-- SCROLL UP ICON NEEDS FONT AWESOME FONT FOR CHEVRON UP ICON -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-  
-    <!-- vendor CSS Files * Author: BootstrapMade.com -->
-    <link href="../assets/css/icofont/icofont.min.css" rel="stylesheet">
     
+    <!-- vendor CSS Files * Author: BootstrapMade.com -->
+    <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../assets/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+    <link rel="stylesheet" href="../assets/css/standard.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
     
     <title>Insight Community Health Evaluation Partners</title>
     <!-- Insert company logo/icon -->
     <!-- <link rel="icon" href="" -->
     
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <!-- FOOTER STYLESHEETS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/neil_styles.css">
         
 
   </head>
   
   <body>
 
-    <div class="container-fluid">     
-      <!-- <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black; font-weight: bolder;"> -->
+    <div class="container-fluid">
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> -->
       <nav class="navbar navbar-expand-lg py-4 navbar-dark navbar-custom">
-        <a class="navbar-brand" href="../index.html" data-tooltip= "Go to the homepage" data-tooltip-location="bottom" >INSIGHT</a>
+        <a class="navbar-brand" href="index.html"data-tooltip= "Go to homepage" data-tooltip-location="bottom" >INSIGHT  <span>Community Health Evaluators</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Who We Are
@@ -66,13 +76,13 @@
               <a class="nav-link" href="../index.html">HOME </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="who-we-are.html">WHO WE ARE</a>
+              <a class="nav-link active" href="who-we-are.html">WHO WE ARE</a>
             </li>          
             <li class="nav-item">
               <a class="nav-link" href="what-we-do.html">WHAT WE DO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="who-we-serve.html">WHO WE SERVE <span class="sr-only">(current)</span></a>
+              <a class="nav-link current" href="who-we-serve.html">WHO WE SERVE </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="news.html">NEWS</a>
@@ -86,16 +96,183 @@
             <li class="nav-item">
               <a class="nav-link" href="contact-us.html">CONTACT US</a>
             </li>
-            
+  
           </ul>
         </div>
+        <!-- <div class="hamburger-container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div> -->
       </nav>
+      
+      <section id="portfolio" class="section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <header class="section-header">
+            <h3 class="section-title">Our Portfolio</h3>
+          </header>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100"">
+        <div class=" col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 1</a></h4>
+                <p>App</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/web3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 3"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 3</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/app2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 2"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 2</a></h4>
+                <p>App</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/card2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 2"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 2</a></h4>
+                <p>Card</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/web2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 2"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 2</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/app3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 3"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 3</a></h4>
+                <p>App</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/card1.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 1"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 1</a></h4>
+                <p>Card</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/card3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 3"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 3</a></h4>
+                <p>Card</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/web1.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 1"><i class="ion ion-eye"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 1</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+        </div>
+      </section><!-- End Portfolio Section -->
+
     
       <!-- CONTAINER BEGINS HERE -->
-      <div class="container">
+      <!-- <div class="container"> -->
+      
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Industries We Interact With
+        <!-- <h1 class="mt-4 mb-3">Our community partners
         </h1>
     
         <ol class="breadcrumb">
@@ -103,10 +280,10 @@
             <a href="index.html">Home</a>
           </li>
           <li class="breadcrumb-item active">Portfolio 1</li>
-        </ol>
+        </ol> -->
     
         <!-- Project One -->
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-7">
             <a href="#">
               <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
@@ -119,13 +296,13 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div>
-        </div>
+        </div> -->
         <!-- /.row -->
     
-        <hr>
+        <!-- <hr> -->
     
         <!-- Project Two -->
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-7">
             <a href="#">
               <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
@@ -138,13 +315,13 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div>
-        </div>
+        </div> -->
         <!-- /.row -->
     
-        <hr>
+        <!-- <hr> -->
     
         <!-- Project Three -->
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-7">
             <a href="#">
               <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
@@ -157,13 +334,13 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div>
-        </div>
+        </div> -->
         <!-- /.row -->
     
-        <hr>
+        <!-- <hr> -->
     
         <!-- Project Four -->
-        <div class="row">
+        <!-- <div class="row">
     
           <div class="col-md-7">
             <a href="#">
@@ -177,10 +354,10 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div>
-        </div>
+        </div> -->
         <!-- /.row -->
     
-        <hr>
+        <!-- <hr> -->
     
         
     
@@ -281,16 +458,29 @@
 
     <!-- Load jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  
-    <!-- Optional JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script> -->
+    
+    <!-- OWL Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/venobox/venobox.min.js"></script>
+    <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="../assets/vendor/counterup/counterup.min.js"></script>
+    
+    <!-- Main JavaScript -->
     <script type="text/javascript" src="../assets/js/app.js"></script>
+    
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS ver 4.5.3-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
@@ -298,16 +488,20 @@
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
-
+    
     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
-    <script src="/__/firebase/8.2.6/firebase-app.js"></script>
+    <!-- <script src="/__/firebase/8.2.6/firebase-app.js"></script> -->
+    <script src="/__/firebase/8.4.1/firebase-app.js"></script>
 
     <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
-    <script src="/__/firebase/8.2.6/firebase-analytics.js"></script>
+    <!-- <script src="/__/firebase/8.2.6/firebase-analytics.js"></script> -->
+    <script src="/__/firebase/8.4.1/firebase-analytics.js"></script>
 
     <!-- Add Firebase products that you want to use -->
-    <script src="/__/firebase/8.2.6/firebase-auth.js"></script>
-    <script src="/__/firebase/8.2.6/firebase-firestore.js"></script>
+    <!-- <script src="/__/firebase/8.2.6/firebase-auth.js"></script>
+    <script src="/__/firebase/8.2.6/firebase-firestore.js"></script> -->
+    <script src="/__/firebase/8.4.1/firebase-auth.js"></script>
+    <script src="/__/firebase/8.4.1/firebase-firestore.js"></script>
   </body>
 </html>
