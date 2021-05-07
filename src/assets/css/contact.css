@@ -1,4 +1,6 @@
 section {
+    width: 100%;
+    
     padding-top: 100px;
     padding-bottom: 100px;
     align-items: center;
@@ -40,7 +42,9 @@ section {
       }
       
       .card-1 .card-body {
-        padding: 0 90px;
+        width: 500px;
+        height: 600px;
+        padding: 0 100px;
         padding-top: 55px;
         padding-bottom: 65px;
       }
@@ -59,7 +63,7 @@ section {
 
      #contact-info{
         background: #12172b;
-        color: white;
+        color: black;
         align-content: center;
         text-align: center;
      }
@@ -73,7 +77,7 @@ section {
       
      .circle-icon {
         background: white;
-        padding: 50px;
+        padding: 40px;
         border: 2px solid #18d26e;
         border-radius: 50%;
     }
@@ -254,3 +258,32 @@ section {
     .carousel-indicators li.active {
         background: #555;
     }
+
+      /* ==========================================================================
+    #News Header
+    ========================================================================== */
+
+    ol.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #12172b;
+      }
+      ol.breadcrumb li {
+        position: relative;
+        display: inline;
+        font-size: 18px;
+        background-color: #12172b;
+      }
+      ol.breadcrumb li a+li a:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+      ol.breadcrumb li a {
+        color: #18d26e;
+        text-decoration: none;
+      }
+      ol.breadcrumb li a:hover {
+        color: #597C2B;
+        text-decoration: underline;
+      }
