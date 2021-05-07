@@ -967,6 +967,16 @@ section {
 
 /* Portfolio Section
 --------------------------------*/
+.portfolio-jumbotron {
+  background: linear-gradient(to top, rgba(255,255,255,0.6) 70%,rgba(255,255,255,0.9) 100%),url("../img/adobe/focus-group.jpeg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+/* #portfolio-jumbotron p{
+  font-weight: bold;
+} */
+
 #portfolio {
   padding: 60px 0;
 }
@@ -1018,12 +1028,17 @@ section {
 }
 
 #portfolio .portfolio-item figure {
-  background: #000;
+  /* background: #000; */
   overflow: hidden;
   height: 240px;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
+}
+
+#portfolio .portfolio-container .portfolio-item .portfolio-wrap img {
+  object-fit:cover;
+  object-position:top;
 }
 
 #portfolio .portfolio-item figure:hover img {
