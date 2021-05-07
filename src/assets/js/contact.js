@@ -33,24 +33,44 @@
 // // Getting a reference to the input element on the page with the id property set to 'input-field'
 // var inputField = d3.select("#input-field");
 
-function revealMore() {
-  var c = document.getElementById("callus");
-  var e = document.getElementById("emailus");
-  var v = document.getElementById("visitus");
-  var h = document.getElementById("helpus");
-  if (c.style.display === "none") {
-    c.style.display = "block";
-  } 
-  if (e.style.display === "none") {
-    e.style.display = "block";
-  } 
-  if (v.style.display === "none") {
-    v.style.display = "block";
-  } 
-  if (h.style.display === "none") {
-    h.style.display = "block";
-  } 
-  else {
-    x.style.display = "none";
-  }
-}
+// function revealMore() {
+//   var c = document.getElementById("callus");
+//   var e = document.getElementById("emailus");
+//   var v = document.getElementById("visitus");
+//   var h = document.getElementById("helpus");
+//   if (c.style.display === "none") {
+//     c.style.display = "block";
+//   } 
+//   if (e.style.display === "none") {
+//     e.style.display = "block";
+//   } 
+//   if (v.style.display === "none") {
+//     v.style.display = "block";
+//   } 
+//   if (h.style.display === "none") {
+//     h.style.display = "block";
+//   } 
+//   else {
+//     x.style.display = "none";
+//   }
+// }
+
+    $(function() {
+        $('div.icon-tab').click(function() {
+            $(this).addClass('active').siblings().removeClass('active');
+            setDisplay(450);
+        });
+
+        function setDisplay(time) {
+            $('div.icon-tab').each(function(rang) {
+                $('.item').eq(rang).css('display', 'none');
+
+                if($(this).hasClass('active')){
+                    $('.item').eq(rang).fadeIn(time);
+                }
+            });
+        }
+
+        //Disable the animation on page load
+        setDisplay(0);
+    });

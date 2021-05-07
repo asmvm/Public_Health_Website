@@ -1,0 +1,289 @@
+section {
+    width: 100%;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+  }
+
+  section:nth-child(n+2) {
+    background: white;
+  }
+
+    /* ==========================================================================
+     #ContactCARD
+     ========================================================================== */
+     #contact-form{
+        color: #18d26e;
+     }
+     #contact-form .card {
+        overflow: hidden;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background: #12172b;
+      }
+
+      #contact-form .form-right {
+        left: 50px;
+        top: 100px;
+      }
+      
+      .card-1 {
+        -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+      }
+      
+      
+      .card-1 .card-heading {
+        /* background: url("../images/bg-head-02.jpg") center center/cover no-repeat; */
+        /* padding-top: -300px; */
+      }
+      
+      .card-1 .card-body {
+        width: 500px;
+        height: 600px;
+        padding: 0 100px;
+        padding-top: 55px;
+        padding-bottom: 65px;
+      }
+      
+      @media (max-width: 767px) {
+        .card-1 .card-body {
+          padding: 0 40px;
+          padding-top: 40px;
+          padding-bottom: 40px;
+        }
+      }
+
+    /* ==========================================================================
+     #CARD
+     ========================================================================== */
+
+     #contact-info{
+        background: #12172b;
+        color: black;
+        align-content: center;
+        text-align: center;
+     }
+
+     .icon-text{
+        align-content: center;
+        text-align: center;
+        top: 10px;
+
+     }
+      
+     .circle-icon {
+        background: white;
+        padding: 40px;
+        border: 2px solid #18d26e;
+        border-radius: 50%;
+    }
+
+      .icon-tab {
+        position: relative;
+        /* left: 25%; */
+        margin-top: 30px;
+        align-items: center;
+        text-align : center;
+        cursor: pointer;
+    }
+    
+    .icon-tab span.glyphicon {
+        display : block;
+        font-size: 35px;
+    
+        color: #8d98b8;
+    
+        margin:  0px auto;
+        line-height: 65px;
+    
+        transition-duration: 0.25s;
+    }
+    
+    .icon-tab span.glyphicon::before {
+        padding: 2px 6.5px;
+        border-radius: 80%;
+    }
+    
+    
+    .icon-tab.active span.glyphicon {
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .icon-tab.active span.glyphicon::before {
+        padding: 15px 19.5px;
+        border-radius: 100%;
+    
+        transition-duration: 0.4s;
+    }
+    
+    .icon-tab.active span.glyphicon::before {
+        background: linear-gradient(to bottom right, #597C2B, #D2E459);
+    }
+    
+    
+    .icon-label {
+        color:  #b3b3b3;
+        font-size: 16px;  
+      
+        transition-duration: 0.35s;
+    }
+    
+    
+    .icon-tab.active .icon-label, .icon-tab:hover .icon-label {
+        color: #18d26e;
+    }
+    
+    .icon-tab:hover span.glyphicon {
+        margin-bottom: 10px;
+    }
+    
+    
+    .item {
+      margin-top: 50px;
+    }
+    
+    
+    @media (max-width:767px) { 
+        .icon-tab {
+            
+        }
+      
+        .icon-tab span {
+            display: inline !important;
+            vertical-align : middle;
+        }  
+      
+        .icon-tab.active span.glyphicon {
+            padding-right: 10px;
+        }
+      
+        .icon-tab:hover span.glyphicon {
+            padding-right: 10px;
+            transition-duration: 0.25s;
+        }
+    }
+
+        /* ==========================================================================
+     #CAROUSEL
+     ========================================================================== */
+
+     #news-feed h2 {
+        color: #696969;
+        font-size: 26px;
+        font-weight: 300;
+        text-align: center;
+        position: relative;
+        margin: 40px 70px;
+        text-transform: uppercase;
+    }
+
+
+    #news-feed h2::after {
+        content: "";
+        width: 100%;
+        position: absolute;
+        margin: 0 auto;
+        height: 1px;
+        border-radius: 1px;
+        background: #d4d4d4;
+        left: 0;
+        right: 0;
+        bottom: 14px;
+    }
+    #news-feed h2 span {
+        display: inline-block;
+        padding: 0 25px;
+        background:#ebebeb;
+        position:relative;
+        z-index:2;
+    }
+
+    
+    .col-center {
+        margin: 0 auto;
+        float: none !important;
+    }
+    #news-feed .carousel {	
+        margin: 30px auto 50px;
+        padding: 0 68px;
+    }
+    #news-feed .carousel .item {
+        text-align: center;
+        overflow: hidden;
+        height: 160px;
+    }
+    #news-feed .carousel .item .img-box {
+        background: #fff;
+        padding: 9px;
+        box-shadow: 0 6px 20px -6px rgba(0,0,0,0.4);
+    }
+    #news-feed .carousel .item img {
+        margin: 0 auto;
+    }
+    #news-feed  .carousel .carousel-control {
+        width: 68px;
+        background: none;
+    }
+    #news-feed .carousel .carousel-control i {
+        font-size: 28px;
+        position: absolute;
+        top: 50%;
+        display: inline-block;
+        margin-top: -15px;
+        z-index: 5;
+        left: 0;
+        right: 0;
+        color: rgba(0, 0, 0, 0.8);
+        text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+    }
+    #news-feed .carousel .carousel-indicators {
+        bottom: -40px;
+    }
+    .carousel-indicators li, .carousel-indicators li.active {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 1px 4px;
+        box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+    }
+    .carousel-indicators li {	
+        background: #999;
+        border-color: transparent;
+    }
+    .carousel-indicators li.active {
+        background: #555;
+    }
+
+      /* ==========================================================================
+    #News Header
+    ========================================================================== */
+
+    ol.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #12172b;
+      }
+      ol.breadcrumb li {
+        position: relative;
+        display: inline;
+        font-size: 18px;
+        background-color: #12172b;
+      }
+      ol.breadcrumb li a+li a:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+      ol.breadcrumb li a {
+        color: #18d26e;
+        text-decoration: none;
+      }
+      ol.breadcrumb li a:hover {
+        color: #597C2B;
+        text-decoration: underline;
+      }
