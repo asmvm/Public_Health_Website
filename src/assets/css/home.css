@@ -1223,9 +1223,23 @@ section {
 /* ==========================================================================
   #STYLING FOR THE TABS IN OUR STORY PAGE
  ========================================================================== */
- #pills-tab {
-    font-size: 25px;  
+#pills-tab {
+  background-color: #12172b; 
 }
+
+#pills-tab a {
+  font-size: 25px; 
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#pills-tab .active {
+  background-color: rgb(209, 173, 125);
+  border-radius: 0%; 
+}
+
 #pills-tabContent{
   text-align: justify;
   
@@ -1465,6 +1479,7 @@ section .section-title {
   color: #18d26e !important;
   background-color: #ffffff;
   border-color: #18d26e;
+  border-radius: 25px;
   
 }
 
@@ -1484,8 +1499,6 @@ section .section-title {
   display: inline-block;
   letter-spacing: 1px;
 }
-
-
 
 /* .backside .btn-primary .btn-sm {
   font-family: "Montserrat", sans-serif;
