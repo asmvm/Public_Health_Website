@@ -593,8 +593,8 @@ section {
 }
 
 .about-us-jumbotron {
-  background: linear-gradient(to top, rgba(255,255,255,0.6) 10%,rgba(255,255,255,0.9) 45%),url("../img/confroom1.jpg") center top no-repeat fixed;
-  background-size:contain;
+  background: linear-gradient(to top, rgba(255,255,255,0.6) 10%,rgba(255,255,255,0.9) 45%),url("../img/confroom1.jpg") center no-repeat fixed;
+  background-size:cover;
   padding: 60px 0 40px 0;
   position: relative;
 }
@@ -976,7 +976,7 @@ section {
 --------------------------------*/
 .portfolio-jumbotron {
   background: linear-gradient(to top, rgba(255,255,255,0.6) 70%,rgba(255,255,255,0.9) 100%),url("../img/adobe/focus-group.jpeg") center top no-repeat fixed;
-  background-size: cover;
+  background-size:cover;
   padding: 60px 0 40px 0;
   position: relative;
 }
