@@ -1224,12 +1224,11 @@ section {
   #STYLING FOR THE TABS IN OUR STORY PAGE
  ========================================================================== */
  #pills-tab {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 25px;  
+    font-size: 25px;  
 }
 #pills-tabContent{
   text-align: justify;
-  font-family: 'Syncopate', sans-serif;
+  
 }
 
 /* ==========================================================================
@@ -1355,43 +1354,10 @@ section {
 ========================================================================== */
 
 /* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
-#our-team-card {
+/* #about-our-team {
   background: #eee !important;
-}
-
-/* .backside .btn-primary:hover,
-.backside .btn-primary:focus {
-  background-color: #fffafa;
-  border-color: #f0e8e9;
-  box-shadow: none;
-  outline: none;
+  align-content: center;
 } */
-
-.backside .btn-primary {
-    color: white;
-    background-color: #ffffff;
-    border: 2px solid #18d26e;
-}
-
-.backside .btn-primary-btn {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 25px;
-  transition: 0.5s;
-  margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-.backside .btn-primary:hover {
-  background: #18d26e;
-  border: 2px solid #18d26e;
-}
 
 section {
   padding: 60px;
@@ -1407,6 +1373,8 @@ section .section-title {
 #our-team-card .card {
   border: none;
   background: #ffffff;
+  align-items: center;
+   
 }
 
 .image-flip:hover .backside,
@@ -1432,7 +1400,7 @@ section .section-title {
   -webkit-transform-style: preserve-3d;
   -ms-transition: 1s;
   -moz-transition: 1s;
-  -moz-transform: perspective(1000px);
+  /* -moz-transform: perspective(1000px); */
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transition: 1s;
@@ -1442,8 +1410,8 @@ section .section-title {
 
 .frontside {
   position: relative;
-  -webkit-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
+  /* -webkit-transform: rotateY(0deg); */
+  /* -ms-transform: rotateY(0deg); */
   z-index: 2;
   margin-bottom: 30px;
 }
@@ -1484,17 +1452,55 @@ section .section-title {
 .frontside .card,
 .backside .card {
   min-height: 312px;
+  min-width: 300px;
 }
 
-.backside .card a {
+.backside .card .social-icon{
   font-size: 18px;
   color: #18d26e !important;
 }
 
-.backside .card .btn-primary a:hover{
+.backside .btn-primary {
   font-size: 18px;
-  color: white !important;
+  color: #18d26e !important;
+  background-color: #ffffff;
+  border-color: #18d26e;
+  
 }
+
+.backside .btn-primary:hover,
+.backside .btn-primary:focus {
+  background-color: #18d26e;
+  border-color: #18d26e;
+  box-shadow: none;
+  outline: none;
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  transition: 0.5s;
+  padding: 8px 28px;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+
+
+/* .backside .btn-primary .btn-sm {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+} */
 
 .frontside .card .card-title,
 .backside .card .card-title {
