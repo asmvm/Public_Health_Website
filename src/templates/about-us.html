@@ -7,7 +7,7 @@
 
     <!-- Favicons -->
     <link href="../assets/img/favicon.png" rel="icon">
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
 
     <!-- Script for the footer -->
@@ -23,7 +23,9 @@
 
     <!-- SCROLL UP ICON NEEDS FONT AWESOME FONT FOR CHEVRON UP ICON -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
     <!-- vendor CSS Files * Author: BootstrapMade.com -->
     <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -128,7 +130,7 @@
                 <a class="nav-link" id="history-tab" data-toggle="pill" href="#history" role="tab" aria-controls="history" aria-selected="false"  style="color: black;">Our History</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link" id="team-tab" data-toggle="pill" href="#team" role="tab" aria-controls="team" aria-selected="false"  style="color: black;">Our Team</a>
+                <a class="nav-link" id="team-tab" data-toggle="pill" href="#about-our-team" role="tab" aria-controls="team" aria-selected="false"  style="color: black;">Our Team</a>
               </li>
               <!-- This is the code for the Our current clients element on the Who We Are. -->
               <!-- <li class="nav-item" role="presentation">
@@ -143,55 +145,334 @@
                 <p>INSIGHT is a solution driven consulting firm empowering organizations with the information, tools, and resources needed to develop, enhance, and expand programs and services throughout their communities.</p>
               </div>
 
-              <div class="tab-pane fade" id="team" role="tabpanel" aria-labelledby="team-tab"> 
-                <div class="container mt-4">
-                  <div class="row">
-                      <div class="col-auto mb-3">
-                        <div class="card">
-                            <img src="../assets/img/MiddleSchoolStudentsSmiling.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Katie</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Current Employee</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">LinkedIn</a>
+              <div class="tab-pane fade" id="about-our-team" role="tabpanel" aria-labelledby="team-tab"> 
+                
+                <div class="row">
+                    <!-- Team -->
+                    <section id="our-team-card" class="pb-5" >
+                        <div class="container">
+                            
+                            <div class="row">
+                                <!-- Team member -->
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="image-flip">
+                                        <div class="mainflip flip-0" >
+                                            <div class="frontside">
+                                                <div class="card" >
+                                                    <div class="card-body text-center" >
+                                                        <img class="img-fluid" src="../assets/img/profiles/pexels-cottonbro-5971254.jpg" alt="card image">
+                                                        <h4 class="card-title">Megan Smith, MPH</h4>
+                                                        <p class="card-text">Founder and Director of INSIGHT</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backside">
+                                                <div class="card">
+                                                    <div class="card-body text-center mt-4">
+                                                        <h4 class="card-title">Megan Smith</h4>
+                                                        <p class="card-text">Insert Bio</p>
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-twitter"></i></a>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-google-plus"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-linkedin"></i>
+                                                                </a>
+                                                            </li>
+                                                            <br><br>
+                                                            <div>
+                                                                <a href="" class="btn btn-primary btn-sm">CONTACT <i class="fas fa-envelope-open-text"></i></a>
+                                                            </div>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ./Team member -->
+                                <!-- Team member -->
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                        <div class="mainflip">
+                                            <div class="frontside">
+                                                <div class="card">
+                                                    <div class="card-body text-center">
+                                                        <img class="img-fluid" src="../assets/img/profiles/pexels-cottonbro-5971254.jpg" alt="card image">
+                                                        <h4 class="card-title">Katie Moran, MPH</h4>
+                                                        <p class="card-text">Evaluation Specialist</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backside">
+                                                <div class="card">
+                                                    <div class="card-body text-center mt-4">
+                                                        <h4 class="card-title">Katie Moran</h4>
+                                                        <p class="card-text">Insert bio</p>
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-twitter"></i></a>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-google-plus"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href=" http://www.linkedin.com/in/katiemoran1">
+                                                                    <i class="fab fa-linkedin"></i>
+                                                                </a>
+                                                            </li>
+                                                            <br><br>
+                                                            <div>
+                                                                <a href="" class="btn btn-primary btn-sm">CONTACT <i class="fas fa-envelope-open-text"></i></a>
+                                                            </div>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ./Team member -->
+                                <!-- Team member -->
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                        <div class="mainflip">
+                                            <div class="frontside">
+                                                <div class="card">
+                                                    <div class="card-body text-center">
+                                                        <img class="img-fluid" src="../assets/img/profiles/pexels-cottonbro-5971254.jpg" alt="card image">
+                                                        <h4 class="card-title">Fiana Thacker, MPH</h4>
+                                                        <p class="card-text">Evaluation Specialist</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backside">
+                                                <div class="card">
+                                                    <div class="card-body text-center mt-4">
+                                                        <h4 class="card-title">Fiana Thacker</h4>
+                                                        <p class="card-text">Insert Bio</p>
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-twitter"></i></a>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-google-plus"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-linkedin"></i>
+                                                                </a>
+                                                            </li>
+                                                            <br><br>
+                                                            <div>
+                                                                <a href="" class="btn btn-primary btn-sm">CONTACT <i class="fas fa-envelope-open-text"></i></a>
+                                                            </div>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ./Team member -->
+                                <!-- Team member -->
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                        <div class="mainflip">
+                                            <div class="frontside">
+                                                <div class="card">
+                                                    <div class="card-body text-center">
+                                                        <img class="img-fluid" src="../assets/img/profiles/pexels-cottonbro-5971254.jpg" alt="card image">
+                                                        <h4 class="card-title">Michelle Herrera</h4>
+                                                        <p class="card-text">Evaluation Specialist</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backside">
+                                                <div class="card">
+                                                    <div class="card-body text-center mt-4">
+                                                        <h4 class="card-title">Michelle Herrera</h4>
+                                                        <p class="card-text">Insert Bio</p>
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-twitter"></i></a>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-google-plus"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-linkedin"></i>
+                                                                </a>
+                                                            </li>
+                                                            <br><br>
+                                                            <div>
+                                                                <a href="" class="btn btn-primary btn-sm">CONTACT <i class="fas fa-envelope-open-text"></i></a>
+                                                            </div>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ./Team member -->
+                                <!-- Team member -->
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                        <div class="mainflip">
+                                            <div class="frontside">
+                                                <div class="card">
+                                                    <div class="card-body text-center">
+                                                        <img class="img-fluid" src="../assets/img/profiles/pexels-cottonbro-5971254.jpg" alt="card image">
+                                                        <h4 class="card-title">Grayson Gunn</h4>
+                                                        <p class="card-text">Evaluation Intern</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backside">
+                                                <div class="card">
+                                                    <div class="card-body text-center mt-4">
+                                                        <h4 class="card-title">Grayson Gunn</h4>
+                                                        <p class="card-text">Insert Bio</p>
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-twitter"></i></a>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-google-plus"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-linkedin"></i>
+                                                                </a>
+                                                            </li>
+                                                            <br><br>
+                                                            <div>
+                                                                <a href="" class="btn btn-primary btn-sm">CONTACT <i class="fas fa-envelope-open-text"></i></a>
+                                                            </div>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ./Team member -->
+                                <!-- Team member -->
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                        <div class="mainflip">
+                                            <div class="frontside">
+                                                <div class="card">
+                                                    <div class="card-body text-center">
+                                                        <img class="img-fluid" src="../assets/img/profiles/pexels-cottonbro-5971254.jpg" alt="card image">
+                                                        <h4 class="card-title">Oprah Winfrey</h4>
+                                                        <p class="card-text">Media Specialist</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backside">
+                                                <div class="card">
+                                                    <div class="card-body text-center mt-4">
+                                                        <h4 class="card-title">Oprah Winfrey</h4>
+                                                        <p class="card-text">Insert Bio</p>
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-twitter"></i></a>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-google-plus"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="social-icon text-xs-center" target="_blank" href="">
+                                                                    <i class="fab fa-linkedin"></i>
+                                                                </a>
+                                                            </li>
+                                                            <br><br>
+                                                            <div>
+                                                                <a href="" class="btn btn-primary btn-sm">CONTACT <i class="fas fa-envelope-open-text"></i></a>
+                                                            </div>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ./Team member -->
+
                             </div>
                         </div>
-                      </div>
-                      <div class="col-auto mb-3">
-                          <div class="card">
-                            <img src="../assets/img/MiddleSchoolStudentsSmiling.jpeg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                  <h5 class="card-title">Alvaro Mcrae</h5>
-                                  <h6 class="card-subtitle mb-2 text-muted">Developer</h6>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="card-link">LinkedIn</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-auto mb-3">
-                          <div class="card">
-                            <img src="../assets/img/MiddleSchoolStudentsSmiling.jpeg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                  <h5 class="card-title">Donley Gustave</h5>
-                                  <h6 class="card-subtitle mb-2 text-muted">Developer</h6>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="card-link">LinkedIn</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-auto mb-3">
-                          <div class="card">
-                            <img src="../assets/img/MiddleSchoolStudentsSmiling.jpeg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                  <h5 class="card-title">Neil Damaraju</h5>
-                                  <h6 class="card-subtitle mb-2 text-muted">Developer</h6>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="card-link">LinkedIn</a>
-                              </div>
-                        </div>
-                    </div>  
-                  </div>
+                    </section>
+                    <!-- Team -->
                 </div>
+                      
+                
               </div>
               <!-- <div class="tab-pane fade" id="clients" role="tabpanel" aria-labelledby="clients-tab">Welcome! We are looking forward to adding you to our wonderful list of clients. 
                 We will be posting a list of our current clients in the coming days! Feel free to explore the rest of our website!
