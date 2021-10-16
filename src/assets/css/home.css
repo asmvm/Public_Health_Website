@@ -709,6 +709,7 @@ section {
   background-size: cover;
   padding: 60px 0;
   opacity: .55;
+  height: 550px;
 }
 
 
@@ -749,9 +750,11 @@ section {
   background: URL("../img/adobe/city-skyline.jpeg") center top no-repeat fixed;
   background-size: cover;
   /* background: #fff; */
-  padding: 60px 0;
+  padding:60px, 0;
   position:relative;
   opacity: .85;
+  margin: 15px;
+  width:initial;
      
 }
 
