@@ -505,6 +505,7 @@ section {
 #featured-services {
   background: #12172b;
   /* margin-bottom: .5rem; */
+  opacity: .95;
 }
 
 #featured-services .box {
@@ -585,6 +586,7 @@ section {
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
+
 }
 
 #about .about-col .img {
@@ -593,6 +595,7 @@ section {
 
 #about .about-col .img img {
   border-radius: 4px 4px 0 0;
+  ;
 }
 
 #about .about-col .icon {
@@ -650,12 +653,12 @@ section {
   padding: 0 20px 20px 20px;
 }
 
-.about-us-jumbotron {
+/* .about-us-jumbotron {
   background: linear-gradient(to top, rgba(255,255,255,0.6) 10%,rgba(255,255,255,0.9) 45%),url("../img/confroom1.jpg") center no-repeat fixed;
   background-size:cover;
   padding: 60px 0 40px 0;
   position: relative;
-}
+} */
 
 /* Services Section
 --------------------------------*/
