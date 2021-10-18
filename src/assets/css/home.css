@@ -653,6 +653,22 @@ section {
   padding: 0 20px 20px 20px;
 }
 
+#about .about-columns .title h2 {
+  color: black;
+  text-align:center;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+
+#about .about-columns p {
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 0;
+}
+
 /* .about-us-jumbotron {
   background: linear-gradient(to top, rgba(255,255,255,0.6) 10%,rgba(255,255,255,0.9) 45%),url("../img/confroom1.jpg") center no-repeat fixed;
   background-size:cover;
