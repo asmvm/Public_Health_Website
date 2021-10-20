@@ -420,7 +420,7 @@ section {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 35rem;
+  height: 38rem;
   
 }
 .carousel-item img{
@@ -507,7 +507,7 @@ section {
   /* margin-bottom: 0; */
 }
 
-/* About Us Section
+/* Mission Vision Section
 --------------------------------*/
 #about {
   background: URL("../img/adobe/focus-group.jpeg") center top no-repeat fixed;
@@ -547,10 +547,10 @@ section {
 }
 
 #about .about-col {
-  background: #fff;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 20px;
+  /* background: #fff; */
+  /* border-radius: 0 0 4px 4px; */
+  /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08); */
+  margin-bottom: 5rem;
 
 }
 
@@ -560,10 +560,10 @@ section {
 
 #about .about-col .img img {
   border-radius: 4px 4px 0 0;
-  ;
+  box-shadow: 0px 12px 12px 12px rgba(21, 135, 201, 0.08);
 }
 
-#about .about-col .icon {
+/* #about .about-col .icon {
   width: 64px;
   height: 64px;
   padding-top: 8px;
@@ -576,14 +576,14 @@ section {
   left: calc( 50% - 32px);
   bottom: -30px;
   transition: 0.3s;
-}
+} */
 
-#about .about-col i {
+/* #about .about-col i {
   font-size: 36px;
   line-height: 1;
   color: #fff;
   transition: 0.3s;
-}
+} */
 
 #about .about-col:hover .icon {
   background-color: #fff;
@@ -618,16 +618,16 @@ section {
   padding: 0 20px 20px 20px;
 }
 
-#about .about-columns .title h2 {
+#about .about-col .title h2{
   color: black;
   text-align:center;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   padding: 0;
   margin: 40px 0 12px 0;
 }
 
-#about .about-columns p {
+#about .about-cols p {
   font-size: 14px;
   line-height: 24px;
   color: black;
