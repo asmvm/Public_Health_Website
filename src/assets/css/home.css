@@ -402,58 +402,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
-/* section {
-  overflow: hidden;
-} */
-
-/* Sections Header
---------------------------------*/
-/* .section-header h3 {
-  font-size: 32px;
-  color: #111;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  position: relative;
-  padding-bottom: 15px;
-}
-
-.section-header h3::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-
-.section-header h3::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #18d26e;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
-
-.section-header p {
-  text-align: center;
-  padding-bottom: 30px;
-  color: #333;
-} */
-
-/* Section with background
---------------------------------*/
-/* .section-bg {
-  background: #f7f7f7;
-} */
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -506,15 +454,17 @@ section {
   background: #12172b;
   /* margin-bottom: .5rem; */
   opacity: .95;
+  margin: 10px 0 0 0;
+  
 }
 
-#featured-services .box {
+/* #featured-services .box {
   padding: 30px 20px;
-}
+} */
 
-#featured-services .box-bg {
-  background-image: linear-gradient(to bottom right, #12172b 0%, #12172b 50%, #12172b 100%);
-}
+/* #featured-services .box-bg {
+  background-image: linear-gradient(to bottom right, #12172b 0%, #12172b 50%, #7781a8 100%);
+} */
 
 #featured-services i {
   color: #18d26e;
@@ -523,25 +473,38 @@ section {
   line-height: 1;
 }
 
+#featured-services ion-icon {
+  color: yellow;
+  font-size: 48px;
+  display: inline-block;
+  line-height: 1;
+  size: small;
+  /* --ionicon-stroke-width: 16px; */
+
+}
+
 #featured-services h4 {
-  font-weight: 400;
-  margin: 15px 0;
-  font-size: 18px;
-}
-
-#featured-services h4 a {
+  font-weight: bolder;
+  /* margin: 15px 0; */
+  font-size: 24px;
+  font-stretch: ultra-expanded;
   color: #fff;
+  line-height: 4rem;
 }
 
-#featured-services h4 a:hover {
+/* #featured-services h4 a{
+  color: #fff;
+} */
+
+/* #featured-services h4 a:hover {
   color: #18d26e;
-}
+} */
 
 #featured-services p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   color: #fff;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 /* About Us Section
@@ -551,6 +514,8 @@ section {
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
+  margin: 10px 0 0 0;
+  
 }
 
 #about .section-header {
@@ -682,6 +647,7 @@ section {
   background: #fff;
   background-size: cover;
   padding: 60px 0 40px 0;
+  margin: 10px 0 0 0;
 }
 
 #services .box {
@@ -729,6 +695,8 @@ section {
   padding: 60px 0;
   opacity: .55;
   height: 550px;
+  margin: 10px 0 0 0;
+  
 }
 
 
@@ -772,8 +740,8 @@ section {
   padding:60px, 0;
   position:relative;
   opacity: .85;
-  margin: 15px;
-  width:initial;
+  margin: 10px;
+  /* width:initial; */
      
 }
 
