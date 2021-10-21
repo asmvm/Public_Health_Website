@@ -512,9 +512,9 @@ section {
 #about {
   background: URL("../img/adobe/focus-group.jpeg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  /* padding: 60px 0 40px 0; */
   position: relative;
-  margin: 10px 0 0 0;
+  /* margin: 10px 0 0 0; */
   
 }
 
@@ -610,19 +610,19 @@ section {
   color: #18d26e;
 }
 
-#about .about-col p {
-  font-size: 14px;
+#about .about-cols .about-col p {
+  font-size: 20px;
   line-height: 24px;
-  color: #333;
+  color: black;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
 
-#about .about-col .title h2{
+#about .about-cols .title {
   color: black;
   text-align:center;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   padding: 0;
   margin: 40px 0 12px 0;
 }
@@ -676,9 +676,9 @@ section {
   color: #111;
 }
 
-#services .box:hover .title a {
+/* #services .box:hover .title a {
   color: #18d26e;
-}
+} */
 
 #services .description {
   font-size: 14px;
